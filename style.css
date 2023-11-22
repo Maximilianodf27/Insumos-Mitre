@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(63,163,58);
+    background: linear-gradient(49deg, rgba(63,163,58,1) 42%, rgba(16,62,193,1) 64%);
+}
+header{
+    height: 15vh;
+}
+#nav{
+    background-color: rgb(245, 245, 245);
+}
+#texto1{
+    margin-top: 15%;
+}
+#img1{
+    margin-top: 7%;
+}
+main{
+    background: rgb(63,163,58);
+    background: linear-gradient(49deg, rgba(63,163,58,1) 42%, rgba(16,62,193,1) 64%);
+}
+.sectioninicio{
+    padding-top: 9rem;
+}
+.sectionfotos{
+    margin-top: 15rem;
+}
+.sectionenvios{
+    margin-top: 14rem;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 5rem;
+}
+#sectioncontacto{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#sectionescobillones{
+    margin-top: 4rem;
+    
+}
+#productos{
+    padding-bottom: 5rem;
+}
+#envios{
+    padding-bottom: 2rem;
+}
+#listafooter{
+    background-color: white;
+}
+#insta{
+    border-color: black;
+    color: black;
+}
+#img{
+    cursor: pointer;
+    transition: 4s;
+}
+#img:hover{
+    transform: scale(1.1);
+    transition: 4s;
+}
+#insta:hover{
+    background-color: rgb(224, 19, 163);
+}
+#gmail{
+    border-color: black;
+    color: black;
+}
+#gmail:hover{
+    background-color: rgb(196, 24, 24);
+}
+#facebook{
+    border-color: black;
+    color: black;
+}
+#facebook:hover{
+    background-color: rgb(73, 129, 250);
+}
+#wsp{
+    border-color: black;
+    color: black;
+}
+#wsp:hover{
+    background-color: rgb(12, 218, 12);
+}
+svg{
+    width: 25px;
+    height: 25px;
+}
